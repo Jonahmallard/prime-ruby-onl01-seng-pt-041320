@@ -6,4 +6,4 @@ def is_prime?(num)
   true
 end 
 
-puts is_
+puts is_prime?(1)
