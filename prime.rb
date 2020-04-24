@@ -6,3 +6,4 @@ def is_prime?(num)
   true
 end 
 
+puts is_
