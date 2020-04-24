@@ -1,9 +1,14 @@
-def is_prime?(num)
-  return false if !num.integer?
-   return false if num < 2 
-    return true if num == 2 
-  (2..num-1).each {|int| return false if num % int == 0}
-  true
+def is_prime?(number)
+  
+  return false if !number.integer?
+    
+    return false if number < 2 
+      
+      return true if number == 2 
+  
+     (2..number-1).each {|int| return false if number % int == 0}
+    
+    true
 end 
 
 puts is_prime?(1)
