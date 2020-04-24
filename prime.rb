@@ -1,4 +1,4 @@
-def is_prime?(number)
+def prime?(number)
   
   return false if !number.integer?
     
@@ -11,7 +11,7 @@ def is_prime?(number)
     true
 end 
 
-puts is_prime?(1)
-puts is_prime?(2)
-puts is_prime?(11)
-puts is_prime?(5)
+puts prime?(1)
+puts prime?(2)
+puts prime?(11)
+puts prime?(5)
