@@ -7,3 +7,6 @@ def is_prime?(num)
 end 
 
 puts is_prime?(1)
+puts is_prime?(2)
+puts is_prime?(11)
+puts is_prime?(5)
